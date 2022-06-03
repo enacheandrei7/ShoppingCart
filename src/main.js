@@ -1,36 +1,5 @@
 let shop = document.getElementById("shop");
 
-let shopItemsData = [
-  {
-    id: 1,
-    name: "Casual Shirt",
-    price: 45,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/img-1.jpg",
-  },
-  {
-    id: 2,
-    name: "Office Shirt",
-    price: 80,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/img-2.jpg",
-  },
-  {
-    id: 3,
-    name: "T Shirt",
-    price: 30,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/img-1.jpg",
-  },
-  {
-    id: 4,
-    name: "Men's suit",
-    price: 120,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/img-4.jpg",
-  },
-];
-
 // Here we get the "basket" lost of objects from the localStorage, in case there isn't a basket item (if it's the first time on site), we start with an empty lsit
 let basket = JSON.parse(localStorage.getItem("data")) || []
 
